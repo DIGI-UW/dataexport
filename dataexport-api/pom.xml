@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.itech</groupId>
 		<artifactId>dataexport</artifactId>
-		<version>0.0.0.8</version>
+		<version>0.0.0.9</version>
 	</parent>
 	<artifactId>dataexport-api</artifactId>
 	<packaging>jar</packaging>
@@ -22,12 +22,6 @@
 			<groupId>org.itech</groupId>
 			<artifactId>dataexport-core</artifactId>
 			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.28</version>
-			<scope>provided</scope>
 		</dependency>
 
 	</dependencies>
